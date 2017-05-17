@@ -1,0 +1,56 @@
+/* banner轮播 样式(渐远) */
+.swiper-container-banner{
+    width: 100%;
+    height: calc(100vw * 650 / 1980);
+}
+.swiper-wrapper{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.slideshow-image {
+    position: absolute;z-index: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: no-repeat 50% 50%;
+    background-size: cover;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+}
+/* 渐远动效 */
+.slideshow-image.active {z-index: 2;-webkit-animation-name: banner-active;-webkit-animation-fill-mode: both;animation-name: banner-active;animation-fill-mode: both;}
+.slideshow-image.active.next {z-index: 1}
+.slideshow-image.next {-webkit-transform: scale(1.3);transform: scale(1.3);}
+@-webkit-keyframes banner-active {
+    0% {
+        opacity: 1;
+        -webkit-transform: scale(1.3);
+        transform: scale(1.3);
+    }
+    90% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+@keyframes banner-active {
+    0% {
+        opacity: 1;
+        -webkit-transform: scale(1.3);
+        transform: scale(1.3);
+    }
+    90% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
