@@ -2,6 +2,7 @@
 项目线上地址：https://yibay.github.io/scale-banner-component/ <br/>
 ## sample
 
+<pre>
 <!DOCTYPE html>
 <html>
 <head>
@@ -34,3 +35,4 @@
 	</div>
 </body>
 </html>
+</pre>
