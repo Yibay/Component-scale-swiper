@@ -1,4 +1,4 @@
-# scale-banner-component
+# Component-scale-swiper
 项目线上地址：https://yibay.github.io/Component-scale-swiper/ <br/>
 ## sample
 
