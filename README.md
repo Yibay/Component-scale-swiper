@@ -3,6 +3,7 @@
 
 ## 效果图：
 
+<iframe src='https://yibay.github.io/Component-scale-swiper'/>
 <img src='./README_show.gif' />
 
 ## sample
