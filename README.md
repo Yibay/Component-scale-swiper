@@ -3,7 +3,7 @@
 
 ## 效果图：
 
-<iframe src='https://yibay.github.io/Component-scale-swiper' ></iframe>
+GIF 图片有点大，所以有点儿卡，可以点击上面链接，直接访问线上地址👆<br/>
 <img src='./README_show.gif' />
 
 ## sample
