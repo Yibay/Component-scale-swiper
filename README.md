@@ -1,5 +1,10 @@
 # Component-scale-swiper
 项目线上地址：https://yibay.github.io/Component-scale-swiper/ <br/>
+
+## 效果图：
+
+<img src='./README_show.gif' />
+
 ## sample
 
 <pre>
